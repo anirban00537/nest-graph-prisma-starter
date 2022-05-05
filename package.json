@@ -70,7 +70,7 @@
     "graphql": "^15.6.0",
     "graphql-scalars": "^1.14.1",
     "graphql-subscriptions": "1.2.1",
-    "nestjs-prisma": "^0.15.0",
+    "nestjs-prisma": "^0.15.1",
     "passport": "0.5.2",
     "passport-jwt": "4.0.0",
     "reflect-metadata": "0.1.13",
