@@ -97,7 +97,7 @@ export class AuthService {
     const securityConfig = this.configService.get<SecurityConfig>('security');
     return this.jwtService.sign(payload, {
       secret: this.configService.get('JWT_REFRESH_SECRET'),
-      expiresIn: securityConfig.refreshIn,
+      // expiresIn: securityConfig.refreshIn,
     });
   }
 
